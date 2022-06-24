@@ -70,7 +70,6 @@ if  'authenticated":true' in r.text or 'userId' in r.text:
     print("")
     print ("\033[92m Login Successful ✓")
     print ("")
-    os.system ("xdg-open https://www.facebook.com/darkhunter141/")
     print(G+"*"*25)	
     print("")
     print(G+"Login :"+username)
