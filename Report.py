@@ -38,7 +38,7 @@ print("")
 username = input("your username :")
 password = input("your password :")
 Target = input("Target Id (username) :")
-url = 'https://www.instagram.com/accounts/login/ajax/'
+url = 'https://www.instagram.com/accounts/login/'
 headers = {
      'accept': '*/*',
     'accept-encoding': 'gzip, deflate, br',
