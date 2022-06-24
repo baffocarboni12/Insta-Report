@@ -81,7 +81,6 @@ if  'authenticated":true' in r.text or 'userId' in r.text:
         print(G+"*"*25)
     except:
     	print(R+"[!]Check the victim's account")
-    	exit()
     print(R+"""
 Choose the type of report :	
 [1] - spam
